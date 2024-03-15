@@ -1,0 +1,118 @@
+    /* Common CSS and Rest code  */
+    *{
+        margin: 0;
+        padding: 0 auto;
+        box-sizing: border-box;
+        list-style-type:none ;
+       
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    .container{
+        overflow: hidden;
+    }
+#hero-section1{
+    background-image: url('images/element\ \(2\).png');
+    background-repeat: no-repeat;
+}
+            /* hr css  */
+    .hr-style{
+        border: 2px solid black;
+        width: 70px;
+        margin: 0 auto;
+        opacity: 1;
+    }
+            /* Service section ccs start here  */
+.service-img{
+    width: 100px;
+    object-fit: contain;
+    height: 30%;
+}
+.card{
+    border: none;
+}
+.service-card{
+    box-shadow: 10px 10px 10px rgba(178, 175, 175, 0.109) , -10px -10px 10px rgba(181, 179, 179, 0.109);
+}
+         /* Background image adding oin css  */
+#service-section{
+    background-image: url('images/Vector.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+        }
+/* Hero section 2 start here  */
+
+.hr-style2{
+    border: 2px solid black;
+    width: 70px;
+    opacity: 1;
+}
+
+
+/* testimonial  */
+#testimonial{
+    background-image: linear-gradient(#458FF6,#2b5a9c);
+    position: relative;
+    
+}
+.design{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.carousel-indicators{
+   
+    margin-bottom: -25px ;
+}
+.carousel-indicators > button{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    
+}
+.carousel-control-prev i, .carousel-control-next i{
+    color: white;
+   
+    
+     font-size: 20px;
+
+ 
+    
+}
+.carousel-control-prev, .carousel-control-next {
+    bottom: -25px;
+    top: auto;
+    
+}
+/* Card 2  */
+#blog .container{
+    background-image: url('images/Group.png');
+    background-repeat: no-repeat;
+    background-position:  bottom right  ;
+ 
+}
+
+.card-footer{
+    border: none;
+    background-color: transparent ;
+}
+
+footer{
+    background-image: linear-gradient(#65BCF3 , #65BCF3);
+}
+footer h4{
+    font-weight: bold;
+   
+}
+footer ul{
+    padding: 0;
+}
+footer ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
